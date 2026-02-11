@@ -4,3 +4,6 @@ There are multiple strategies for organizing commits. Usually, all in the name o
 
 Fast-forward merge: Move the new commits from the child branch onto the parent branch.
 快进合并 ：将新提交从子分支迁移到父分支。
+
+Merge commit: Apply the changes as a single new commit on the parent branch. Leave the child branch in the network for traceability.
+合并提交 ：将这些变更作为父分支的单一新提交应用。为了可追溯性，将子分支留在网络中。
