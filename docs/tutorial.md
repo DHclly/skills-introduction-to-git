@@ -14,9 +14,14 @@ Squash merge: Collapse the commits from one branch into a single new commit on t
 
 git branch --list
 
+git add *
+
+git commit -m "update tutorial.md"
+
 git checkout main
 
 git merge --no-ff fix-incomplete-high-score -m "Fix high score tracker"
+
 
 
 git log --all --graph --oneline
