@@ -7,3 +7,6 @@ Fast-forward merge: Move the new commits from the child branch onto the parent b
 
 Merge commit: Apply the changes as a single new commit on the parent branch. Leave the child branch in the network for traceability.
 合并提交 ：将这些变更作为父分支的单一新提交应用。为了可追溯性，将子分支留在网络中。
+
+Squash merge: Collapse the commits from one branch into a single new commit on the other branch.
+压缩合并 ：将一个分支的提交合并为另一个分支的单个新提交。
