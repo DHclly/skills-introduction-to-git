@@ -13,3 +13,10 @@ Squash merge: Collapse the commits from one branch into a single new commit on t
 
 
 git branch --list
+
+git merge --no-ff fix-incomplete-high-score -m "Fix high score tracker"
+
+
+git log --all --graph --oneline
+
+git branch --delete fix-incomplete-high-score
