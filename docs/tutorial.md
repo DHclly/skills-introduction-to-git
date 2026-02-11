@@ -10,3 +10,6 @@ Merge commit: Apply the changes as a single new commit on the parent branch. Lea
 
 Squash merge: Collapse the commits from one branch into a single new commit on the other branch.
 压缩合并 ：将一个分支的提交合并为另一个分支的单个新提交。
+
+
+git branch --list
